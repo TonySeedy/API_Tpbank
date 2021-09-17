@@ -8,7 +8,7 @@ function get_token($username, $password)
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
     $headers = array(
-        "DEVICE_ID: LYjkjqGZ3HhGP5520GxPP2j94RDMC7Xje77MI7" . rand(10000000.999999999999),
+        "DEVICE_ID: LYjkjqGZ3HhGP5520GxPP2j94RDMC7Xje77MI7" . rand(10000000,999999999999),
         "PLATFORM_VERSION: 91",
         "DEVICE_NAME: Chrome",
         "SOURCE_APP: HYDRO",
